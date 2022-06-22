@@ -64,8 +64,8 @@ Check the MKE cluster nodes in `Shared resources > Nodes`:
 
 > **Notes:** Nodes are shared resources because they are used both for Swarm and Kubernetes orchestration.
 
-And that the MSR registry is well integrated with MKE in `Admin Settings > Mirantis Secure Registry`:
+Chek also that the MSR registry is well integrated with MKE in `Admin Settings > Mirantis Secure Registry`:
 
 <img src="images/msr-configured.png" width="500px" alt="MSR configured">
 
-> **Notes:** Note the column `type` indicating the type of orchestration supported on the node. Manager nodes are always of `Mixed` type. We can choose between `Swarm`, `Kubernetes` or `Mixed` for worker nodes.
+> **Notes:** The column `type` indicates the type of orchestration supported on the node. Manager nodes are always of `Mixed` type. But we can choose between `Swarm`, `Kubernetes` or `Mixed` for worker nodes.
