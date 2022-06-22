@@ -18,6 +18,8 @@ This container platform is also the only one able to manage both **Swarm** and *
 
 For this lab we will provision resources on [AWS](https://aws.amazon.com) with [Terraform](https://www.terraform.io/).
 
+<img src="images/terraform-logo.png" height="100px">&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/aws-logo.png" height="100px">
+
 Follow [this guide](terraform/README.md) to provision everything we need with the embedded Terraform project.
 
 <img src="images/aws-infrastructure.drawio.png" width="500px"><br>
