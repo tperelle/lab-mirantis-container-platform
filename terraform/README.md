@@ -1,8 +1,8 @@
 # Create infrastructure
 
-We are using Terraform to provision the following infrastructure on AWS. 
+We are using Terraform to provision infrastructure on AWS.
 
-<img src="../images/aws-infrastructure.drawio.png" width="500px">
+<img src="../images/terraform-logo.png" height="100px">&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/aws-logo.png" height="100px"> 
 
 ## Requirements
 
@@ -10,20 +10,21 @@ We are using Terraform to provision the following infrastructure on AWS.
 - AWS credentials
 - AWS Keypair existing with the corresponding private key on your local machine
 
-Export your AWS credential as environment variable. You can then execute the terraform project:
+Export your AWS credential as environment variable.
 
 ## Configuration
 
-Configure the Terraform project's variables according your needs and the environment you want to create.
-
-For that, you can adapt variables contained in the `variables.tf` file or supercharge them in a `*.tfvars` file. 
-
-> Check [this  documentation](https://www.terraform.io/language/values/variables) if your are not aware of variables management in Terraform.
+<img src="../images/aws-infrastructure.drawio.png" width="500px">
 
 By default, the project configure a cluster with one node per role:
 - manager
 - worker
 - mcr
+
+You need to configure the Terraform project's variables according your needs and the environment you want to create. 
+For that, you can adapt variables contained in the `variables.tf` file or supercharge them in a `*.tfvars` file. 
+
+> Check [this  documentation](https://www.terraform.io/language/values/variables) if your are not aware of variables management in Terraform.
 
 ## Provisionning
 

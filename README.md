@@ -20,9 +20,7 @@ For this lab we will provision resources on [AWS](https://aws.amazon.com) with [
 
 <img src="images/terraform-logo.png" height="100px">&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/aws-logo.png" height="100px">
 
-Follow [this guide](terraform/README.md) to provision everything we need with the embedded Terraform project.
-
-<img src="images/aws-infrastructure.drawio.png" width="500px"><br>
+[Follow this provisioning guide](terraform/README.md) to provision everything we need with the embedded Terraform project.
 
 ## Install Mirantis Kubernetes engine
 
