@@ -14,15 +14,13 @@ This container platform is also the only one able to manage both **Swarm** and *
 
 > Even if Kubernetes become the de facto standard for enterprise container orchestration, Swarm is not already dead and remains relevant for simple use cases. We can still find some good feedback on it like [this one](https://www.yvesdennels.com/posts/docker-swarm-in-2022/).
 
-<br>
-
 ## Create lab on AWS
 
 For this lab we will provision resources on [AWS](https://aws.amazon.com) with [Terraform](https://www.terraform.io/).
 
 <img src="images/terraform-logo.png" height="100px">&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/aws-logo.png" height="100px">
 
-[Follow this guide](terraform/README.md) to provision everything we need with the embedded Terraform project.
+[Follow this guide to provision lab resources on AWS](terraform/README.md)
 
 ## Install Mirantis Kubernetes engine
 
