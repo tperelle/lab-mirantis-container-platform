@@ -1,0 +1,7 @@
+.DS_Store
+env.sh
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+
+launchpad.yaml
