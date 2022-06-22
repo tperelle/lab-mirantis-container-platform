@@ -12,6 +12,8 @@ This project aims to test the **Mirantis Container Platform** solution composed 
 As a reminder, this solution is based on the former **Docker EE** (Enterprise Edition) solution that Mirantis acquired in 2019.
 This container platform is also the only one able to manage both **Swarm** and **Kubernetes** container orchestration.
 
+> Even if Kubernetes become the de facto standard for enterprise container orchestration, Swarm is not already dead and remains relevant for simple use cases. We can still find some good feedback on it like [this one](https://www.yvesdennels.com/posts/docker-swarm-in-2022/).
+
 <br>
 
 ## Create lab on AWS
@@ -20,7 +22,7 @@ For this lab we will provision resources on [AWS](https://aws.amazon.com) with [
 
 <img src="images/terraform-logo.png" height="100px">&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/aws-logo.png" height="100px">
 
-[Follow this provisioning guide](terraform/README.md) to provision everything we need with the embedded Terraform project.
+[Follow this guide](terraform/README.md) to provision everything we need with the embedded Terraform project.
 
 ## Install Mirantis Kubernetes engine
 
