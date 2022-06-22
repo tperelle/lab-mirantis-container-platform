@@ -48,7 +48,7 @@ INFO MSR cluster admin UI: https://ec2-52-215-236-184.eu-west-1.compute.amazonaw
 INFO You can download the admin client bundle with the command 'launchpad client-config' 
 ```
 
-> If you get some error at this step, you have to resolve it before going foreward. 
+> If you get some error at this step, you have to resolve it before moving on. 
 
 Access the MKE web console using the credentials you configured in the `launchpad.yaml` file. If you have a license you can configure it at this step, otherwise select the `Skip for now` option.
 
