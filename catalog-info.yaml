@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: lab-mirantis-container-platform
+  description: This project aims to deploy and test the Mirantis Container Platform solution on AWS.
+  links:
+    - url: https://medium.com/linkbynet/install-mirantis-container-platform-on-aws-9b13848fcb8c
+      title: Install Mirantis Container Platform on AWS
+      icon: techdocs
+spec:
+  type: article
+  system: github
+  lifecycle: production
+  owner: thomas
