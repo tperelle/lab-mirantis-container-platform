@@ -7,6 +7,9 @@ metadata:
     - url: https://medium.com/linkbynet/install-mirantis-container-platform-on-aws-9b13848fcb8c
       title: Install Mirantis Container Platform on AWS
       icon: techdocs
+  tags:
+    - kubernetes
+    - aws
 spec:
   type: article
   system: github
